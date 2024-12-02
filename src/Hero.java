@@ -108,6 +108,7 @@ public class Hero {
     public void printStatus() {
         System.out.println("Hero Name: " + name);
         System.out.println("Level: " + level);
+        System.out.println("Job: " + job);
         System.out.println("Current HP: " + currHp + "/" + maxHp);
         System.out.println("Current Mana: " + currMana + "/" + maxMana);
         System.out.println("Speed: " + currSpeed);
